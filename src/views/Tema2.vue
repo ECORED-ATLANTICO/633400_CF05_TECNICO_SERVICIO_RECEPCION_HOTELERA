@@ -101,8 +101,7 @@
                 p.mb-0 Le invitamos a consultar el siguiente video, que registra un ejemplo práctico del proceso de ingreso de una reserva en PMS: 
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=RKpZdrmdneY" target="_blank")
-                  span Consultar video
-                  i.fas.fa-play-circle
+                  span Ir al recurso
 
 
     separador

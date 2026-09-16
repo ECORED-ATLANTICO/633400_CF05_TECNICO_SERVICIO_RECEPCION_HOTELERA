@@ -107,8 +107,7 @@
                 p.mb-0 Lo invitamos a consultar el siguiente blog para ampliar sus conocimientos sobre las agencias de viaje en línea (OTA), cómo funcionan, cuáles son sus principales ventajas y algunos ejemplos:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://stays.net/blog/es/que-son-las-otas-y-cuales-son-las-principales/" target="_blank")
-                  span Consultar blog
-                  i.fas.fa-file-pdf
+                  span Ir al recurso
 
     separador
     
@@ -174,8 +173,7 @@
                 p.mb-0 Para profundizar en los beneficios que representa trabajar con canales o #[em Channel Manager], lo invitamos a consultar el siguiente video:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=d9PWJaiaxjU" target="_blank")
-                  span Consultar video
-                  i.fas.fa-play-circle
+                  span Ir al recurso
 
     separador
     
@@ -243,8 +241,7 @@
                 p.mb-0 Para profundizar en qué son los GDS en turismo y cuáles son los más importantes, lo invitamos a consultar el siguiente artículo especializado: 
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.entornoturistico.com/que-son-los-gds-en-turismo-y-cuales-son-los-mas-importantes/" target="_blank")
-                  span Consultar blog
-                  i.fas.fa-file-pdf
+                  span Ir al recurso
 
 
     separador

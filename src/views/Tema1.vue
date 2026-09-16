@@ -275,8 +275,7 @@
                 p.mb-0 Para ampliar más sus conocimientos sobre los módulos esenciales de PMS claves en un establecimiento de alojamiento, lo invitamos a consultar el siguiente video:
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=x_07Cn5P--E" target="_blank")
-                  span Consultar video
-                  i.fas.fa-play-circle
+                  span Ir al recurso
 
     separador
     
