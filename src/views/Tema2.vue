@@ -223,7 +223,6 @@
           span Flujo de confirmación de reserva en PMS  
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img14.svg", alt="La figura 2 ilustra el flujo de confirmación de una reserva en PMS y sus pasos: Solicitud, Verificación, Registro, Confirmación y Código de reserva")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img15.svg", alt="La figura 2 ilustra el flujo de confirmación de una reserva en PMS y sus pasos: Solicitud, Verificación, Registro, Confirmación y Código de reserva")
-        figcaption Nota. SENA, (2026).
 
 
     .row.mb-5.justify-content-center.align-items-center
@@ -295,7 +294,6 @@
           span Proceso de cancelación y liberación de habitaciones   
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img19.svg", alt="En la figura se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img20.svg", alt="En la figura se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS.")
-        figcaption Nota. SENA, (2026).
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.col-md-6.mb-4.mb-lg-0.d-none.d-lg-flex

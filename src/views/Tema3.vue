@@ -98,7 +98,6 @@
           span Gráfico predictivo de pronóstico de ocupación 
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img09.png", alt="La figura ilustra una gráfica comparativa de ocupación hotelera real y proyectada durante 30 días. En ella se incluyen indicadores de ocupación promedio reales del hotel del 70 %, ocupación proyectada del 76 % y una diferencia positiva del 6 %. Estos datos son utilizados para apoyar el análisis y pronóstico operativo del hotel.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img10.png", alt="La figura ilustra una gráfica comparativa de ocupación hotelera real y proyectada durante 30 días. En ella se incluyen indicadores de ocupación promedio reales del hotel del 70 %, ocupación proyectada del 76 % y una diferencia positiva del 6 %. Estos datos son utilizados para apoyar el análisis y pronóstico operativo del hotel.")
-        figcaption Nota. SENA, (2026).
 
 
 
@@ -255,7 +254,6 @@
           span Plano de control de habitaciones en PMS  
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema3/img19.png", alt="La figura detalla el plano visual de habitaciones de un hotel organizado por pisos y habitaciones numeradas. Cada habitación utiliza un color diferente para indicar su estado operativo en tiempo real: verde para vacía limpia, azul para vacía sucia, amarillo para ocupada, morado para mantenimiento, rojo para fuera de servicio y gris para bloqueada. El plano incluye una leyenda lateral con el significado de cada color y un resumen general del estado de ocupación del hotel.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema3/img20.png", alt="La figura detalla el plano visual de habitaciones de un hotel organizado por pisos y habitaciones numeradas. Cada habitación utiliza un color diferente para indicar su estado operativo en tiempo real: verde para vacía limpia, azul para vacía sucia, amarillo para ocupada, morado para mantenimiento, rojo para fuera de servicio y gris para bloqueada. El plano incluye una leyenda lateral con el significado de cada color y un resumen general del estado de ocupación del hotel.")
-        figcaption Nota. SENA, (2026).
     
     p.mb-4(data-aos="fade-right") La integración tecnológica entre recepción y #[em housekeeping] contribuye significativamente a mejorar la experiencia del huésped, ya que permite reducir tiempos de espera durante el #[em check-in] y mantener un mejor control operativo de la ocupación. Además, facilita el seguimiento de novedades relacionadas con mantenimiento preventivo, daños o requerimientos especiales de las habitaciones.
 
@@ -317,6 +315,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-12.col-lg-10
+        p.mb-3.text-bold Línea de tiempo operativa con alertas en tiempo real
+
         PasosA.color-primario(tipo="l")
           .row(titulo="08:15 a. m. – Habitación pendiente de limpieza").align-items-center
             .col-lg.order-2.order-lg-1

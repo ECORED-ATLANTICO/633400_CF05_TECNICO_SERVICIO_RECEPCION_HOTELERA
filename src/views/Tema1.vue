@@ -255,7 +255,6 @@
           span Funciones del PMS
         img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema1/img27.svg", alt="La figura 1 detalla las principales funciones del PMS, las cuales son:\n- Registro y control de reservas.\n- Gestión de check-in y check-out.\n- Asignación de habitaciones.\n- Control de tarifas y disponibilidad.\n- Generación de reportes.\n- Seguimiento del historial de huéspedes.\n- Integración con plataformas de reservas online.")
         img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema1/img28.svg", alt="La figura 1 detalla las principales funciones del PMS, las cuales son:\n- Registro y control de reservas.\n- Gestión de check-in y check-out.\n- Asignación de habitaciones.\n- Control de tarifas y disponibilidad.\n- Generación de reportes.\n- Seguimiento del historial de huéspedes.\n- Integración con plataformas de reservas online.")
-        figcaption Nota. SENA, (2026).
 
     .container
       .row.justify-content-center.align-items-center.mb-5.bg-color-23(data-aos="fade-right")
@@ -381,7 +380,7 @@
           .row.justify-content-center.align-items-center.p-4.p-lg-3
             .col-lg-9.order-1.order-lg-1.mb-4.mb-lg-0
               h4.mb-3 Caso práctico
-              p.mb-0 Un hotel utiliza un PMS conectado a un #[em Channel Manager] y a diferentes OTA. Cuando un huésped realiza una reserva desde Booking, el sistema actualiza automáticamente la disponibilidad en todas las plataformas, evitando sobreventas y facilitando el control de ocupación.
+              p.mb-0 El Hotel Mirador Plaza administraba sus reservas de manera manual mediante libros físicos y hojas de cálculo. Durante temporadas altas, el personal de recepción presentaba dificultades para actualizar la disponibilidad de habitaciones y controlar las reservas provenientes de agencias y llamadas telefónicas. Esto ocasionaba errores frecuentes, sobreventas y demoras en la atención de los huéspedes.
             .col-lg-3.col-md-6.order-2.order-lg-2
               img(src="@/assets/curso/tema1/img35.png", alt="").img-fluid.mx-auto
           

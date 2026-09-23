@@ -200,7 +200,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621602_CF05_DU.pdf',
+        download: 'downloads/633400_CF05_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -436,7 +436,6 @@ export default {
     {
       referencia:
         'Solomon, M. R. (2020). Consumer behavior: Buying, having, and being (13.ª ed.). Pearson.',
-      link: 'https://books.google.com/books?id=6K9yDwAAQBAJ',
     },
   ],
   creditos: [
@@ -466,7 +465,7 @@ export default {
         },
         {
           nombre: 'María Fernanda Morales Angulo',
-          cargo: 'Evaluador instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
@@ -476,7 +475,7 @@ export default {
       autores: [
         {
           nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñadora web',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
@@ -501,17 +500,17 @@ export default {
         },
         {
           nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos digitales',
+          cargo: 'Validadora y vinculadora de recursos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
