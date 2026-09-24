@@ -193,7 +193,6 @@
           span Tipos de reportes hoteleros y su utilidad
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Tipo de reporte
@@ -265,7 +264,6 @@
           span Estados operativos de habitaciones en el PMS
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Estado de habitación
@@ -403,7 +401,6 @@
           span Alertas más comunes en un PMS
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Tipo de alerta

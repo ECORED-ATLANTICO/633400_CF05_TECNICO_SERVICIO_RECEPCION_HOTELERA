@@ -314,7 +314,6 @@
           span Diferencias entre cancelación, anulación y #[em no show] en reservas hoteleras
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Concepto

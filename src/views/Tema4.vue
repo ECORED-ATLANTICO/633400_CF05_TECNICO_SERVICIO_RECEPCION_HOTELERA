@@ -56,7 +56,6 @@
           span Cuadro comparativo de OTA y motores de reservas
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Aspecto
@@ -377,7 +376,6 @@
           span Riesgos y medidas de seguridad en hotelería
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Riesgo digital

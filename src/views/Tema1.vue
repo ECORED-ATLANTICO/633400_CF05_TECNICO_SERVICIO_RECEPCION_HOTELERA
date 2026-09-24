@@ -197,7 +197,6 @@
           span Cuadro comparativo de #[em software] hotelero
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th #[em Software]
@@ -307,7 +306,6 @@
           span Ventajas y desafíos del #[em software] hotelero
         .tabla-a.color-acento-contenido 
           table
-            caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
             thead
               tr
                 th Aspecto
