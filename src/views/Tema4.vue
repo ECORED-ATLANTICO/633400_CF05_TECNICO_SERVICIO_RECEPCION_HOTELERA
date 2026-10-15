@@ -309,7 +309,7 @@
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Transformación digital y experiencia del huésped en la hotelería moderna"
                 tiempo
-                :audio="require('@/assets/curso/audio/PODCAST2_TRANSFORMACION_DIGITAL_Y_EXPERIENCIA_DEL_HUESPED_EN_LA_HOTELERIA_MODERNA.mp3')"
+                :audio="require('@/assets/curso/audio/PODCAST2.mp3')"
               )
 
 
@@ -322,7 +322,7 @@
     .container
       .row.justify-content-center.align-items-center.mb-5.bg-color-23(data-aos="fade-right")
         .col-lg-7.p-4.order-2.order-lg-2
-          p.mb-0 La transformación digital y el uso de sistemas tecnológicos en los establecimientos de alojamiento han incrementado significativamente la necesidad de proteger la información y garantizar la seguridad de los datos almacenados en los sistemas hoteleros. Actualmente, los hoteles administran información sensible relacionada con reservas, documentos de identidad, métodos de pago, historial de huéspedes y transacciones financieras, por lo que la seguridad informática se convierte en un aspecto fundamental para la operación y la confianza del cliente.
+          p.mb-0 En Colombia, el tratamiento de los datos personales está regulado por la Ley 1581 de 2012 y sus disposiciones reglamentarias, compiladas en el Decreto 1074 de 2015. Estas normas establecen principios y obligaciones para la recolección, almacenamiento, uso, circulación y protección de la información personal. En los establecimientos de alojamiento, su aplicación implica gestionar adecuadamente los datos de los huéspedes, informar sobre las finalidades de su tratamiento, obtener la autorización cuando corresponda y adoptar medidas de seguridad y confidencialidad, de acuerdo con la normativa vigente.
         .col-lg-5.p-0.order-1.order-lg-1
           img(src="@/assets/curso/tema4/img23.png", alt="")
 
@@ -346,7 +346,7 @@
 
           .row.justify-content-center.align-items-center.p-4.p-lg-3
             .col-lg-7.mb-4.mb-lg-0.mb-3.mb-lg-0
-              p.mb-0 Otro aspecto importante corresponde a la seguridad de las aplicaciones y plataformas utilizadas en la gestión hotelera. Los sistemas PMS, motores de reserva y plataformas de pago deben contar con protocolos de seguridad que permitan proteger la información de huéspedes y garantizar transacciones seguras. Un fallo en la protección de estas herramientas podría afectar la operación del hotel y comprometer la confianza de los clientes.
+              p.mb-0 Otro aspecto importante corresponde a la seguridad de las aplicaciones y plataformas utilizadas en la gestión hotelera. Los PMS, motores de reserva y plataformas de pago deben contar con protocolos de seguridad que permitan proteger la información de huéspedes y garantizar transacciones seguras. Un fallo en la protección de estas herramientas podría afectar la operación del hotel y comprometer la confianza de los clientes.
             .col-md-8.col-lg-5
               figure
                 img(src="@/assets/curso/tema4/img26.png", alt="").mx-auto

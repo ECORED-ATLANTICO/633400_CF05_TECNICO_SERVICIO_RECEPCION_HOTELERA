@@ -41,7 +41,6 @@
           .col-lg-3.col-md-8.mb-4.mb-lg-0
             img(src='@/assets/curso/tema2/img05.png', alt="").mx-auto
           .col-lg-9.col-md-12
-            p.mb-4 Durante el proceso de registro se ingresan datos como:
             SlyderF(columnas="col-lg-6 col-xl-4 col-md-12 col-sm-12")
               .tarjeta.bg-white.p-4.h-100
                 .row.justify-content-center.mb-3
@@ -292,8 +291,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 #[b Figura 3.]
           span Proceso de cancelación y liberación de habitaciones   
-        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img19.svg", alt="En la figura se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS.")
-        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img20.svg", alt="En la figura se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS.")
+        img.mb-2.d-none.d-lg-block(data-aos="fade-up", src="@/assets/curso/tema2/img19.svg", alt="En la figura 3, se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS. Dicho proceso incluye aspectos como: la solicitud de cancelación, la verificación de la reserva política, si está dentro del plazo permitido, la actualización en todos los canales, la notificación y confirmación y el registro y control de la misma.")
+        img.mb-2.d-lg-none(data-aos="fade-up", src="@/assets/curso/tema2/img20.svg", alt="En la figura 3, se ilustra el proceso de cancelación y liberación de habitaciones en un sistema PMS. Dicho proceso incluye aspectos como: la solicitud de cancelación, la verificación de la reserva política, si está dentro del plazo permitido, la actualización en todos los canales, la notificación y confirmación y el registro y control de la misma.")
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.col-md-6.mb-4.mb-lg-0.d-none.d-lg-flex
@@ -411,7 +410,7 @@
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Importancia del historial del huésped y el seguimiento de reservas en la operación hotelera"
                 tiempo
-                :audio="require('@/assets/curso/audio/PODCAST1_IMPORTANCIA_DEL_HISTORIAL_DEL_HUESPED_Y_EL_SEGUIMIENTO_DE_RESERVAS_EN_LA_OPERACION_HOTELERA.mp3')"
+                :audio="require('@/assets/curso/audio/PODCAST1.mp3')"
               )
 
     .row.align-items-center.mb-3

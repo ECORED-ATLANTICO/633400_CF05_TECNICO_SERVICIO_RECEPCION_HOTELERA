@@ -109,7 +109,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: '<em>Forecasting</em> y pronóstico de ocupación',
+            titulo: 'Pronóstico de ocupación (<em>forecasting</em>)',
             hash: 't_3_2',
           },
           {
@@ -411,16 +411,6 @@ export default {
     {
       referencia:
         'Moll, S. V. (1984). Front-of-the-house computer systems: A user’s guide. Hospitality Review, 2(2), Art. 5.',
-    },
-    {
-      referencia: 'Oracle Hospitality. (2020). What is a hotel PMS?',
-      link:
-        'https://www.oracle.com/in/industries/hospitality/what-is-hotel-pms.html',
-    },
-    {
-      referencia:
-        'Oracle Hospitality. (2023). Property Management Systems (PMS).',
-      link: 'https://www.oracle.com/hospitality/',
     },
     {
       referencia:

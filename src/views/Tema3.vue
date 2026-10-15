@@ -35,10 +35,10 @@
         p.mb-0 Información que puede mostrar un #[em dashboard] hotelero.
 
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-4.mb-4.mb-lg-0.order-lg-2
+      .col-md-8.col-lg-3.mb-4.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema3/img04.png", data-aos="zoom-in").mx-auto
-      .col-lg-8.order-lg-1
+      .col-lg-9.order-lg-1
         TabsA.color-acento-botones()
           .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Indicador de ocupación")
             p.mb-0 El #[em dashboard] permite visualizar el porcentaje de habitaciones ocupadas en tiempo real, facilitando el control de disponibilidad y el análisis del comportamiento del hotel durante el día, la semana o la temporada. Esta información ayuda a tomar decisiones relacionadas con tarifas, ventas y distribución de habitaciones.
@@ -46,50 +46,23 @@
             p.mb-0 El sistema muestra la cantidad de huéspedes que ingresarán y saldrán durante el día, permitiendo preparar habitaciones, organizar el personal y agilizar el proceso de recepción y coordinar procesos de limpieza y disponibilidad para nuevas reservas.
           .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Control operativo de <em>housekeeping</em>")
             p.mb-0 Permite identificar el estado actual de cada habitación y mejorar la coordinación entre recepción y #[em housekeeping].
-            
-
-
-    .row.mb-4.justify-content-center
-      .col-lg-3.mb-4.mb-lg-0.col-md-6
-        .tarjeta.bg-color-21.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12  
-              img(src='@/assets/curso/tema3/img05.png' alt="", style="width: 120px;").mx-auto
-          h4.text-center Seguimiento financiero
-          p.mb-0.text-center El #[em dashboard] puede consolidar información económica relacionada con ventas de habitaciones y servicios adicionales.
-
-      .col-lg-3.mb-4.mb-lg-0.col-md-6
-        .tarjeta.bg-color-21.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12  
-              img(src='@/assets/curso/tema3/img06.png' alt="", style="width: 120px;").mx-auto
-          h4.text-center Seguimiento en tiempo real
-          p.mb-0.text-center El sistema genera notificaciones automáticas sobre situaciones que requieren atención inmediata por parte del personal.
-      
-      .col-lg-3.mb-4.mb-lg-0.col-md-6
-        .tarjeta.bg-color-21.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12  
-              img(src='@/assets/curso/tema3/img07.png' alt="", style="width: 120px;").mx-auto
-          h4.text-center Gestión de inventario hotelero
-          p.mb-0.text-center Facilita el monitoreo de reservas activas y la disponibilidad futura del hotel.
-
-      .col-lg-3.mb-4.mb-lg-0.col-md-6
-        .tarjeta.bg-color-21.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12  
-              img(src='@/assets/curso/tema3/img08.png' alt="", style="width: 120px;").mx-auto
-          h4.text-center Experiencia del cliente
-          p.mb-0.text-center Algunos PMS integran indicadores relacionados con opiniones y experiencia del huésped.
+          .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Seguimiento financiero")
+            p.mb-0  El #[em dashboard] puede consolidar información económica relacionada con ventas de habitaciones y servicios adicionales.
+          .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Seguimiento en tiempo real")
+            p.mb-0 El sistema genera notificaciones automáticas sobre situaciones que requieren atención inmediata por parte del personal.
+          .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Gestión de inventario hotelero")
+            p.mb-0 Facilita el monitoreo de reservas activas y la disponibilidad futura del hotel.
+          .tarjeta.color-acento-botones--borde.p-4.align-content-center(titulo="Experiencia del cliente")
+            p.mb-0 Algunos PMS integran indicadores relacionados con opiniones y experiencia del huésped.
 
     separador
     
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2 #[em Forecasting] y pronóstico de ocupación
+      h2 3.2 Pronóstico de ocupación (<em>forecasting</em>) 
     
     .row.mb-5
       .col-lg-8
-        p.mb-0 El #[em forecasting] hotelero consiste en el análisis y proyección de la ocupación futura del establecimiento mediante el uso de datos históricos, reservas confirmadas y tendencias de comportamiento del mercado. Esta herramienta permite anticipar niveles de demanda y apoyar la planeación operativa y comercial del hotel.
+        p.mb-0 El pronóstico de ocupación o <em>forecasting</em> hotelero consiste en el análisis y proyección de la ocupación futura del establecimiento mediante el uso de datos históricos, reservas confirmadas y tendencias de comportamiento del mercado. Esta herramienta permite anticipar niveles de demanda y apoyar la planeación operativa y comercial del hotel.
     
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-lg-12
@@ -315,70 +288,89 @@
       .col-12.col-lg-10
         p.mb-3.text-bold Línea de tiempo operativa con alertas en tiempo real
 
-        PasosA.color-primario(tipo="l")
-          .row(titulo="08:15 a. m. – Habitación pendiente de limpieza").align-items-center
-            .col-lg.order-2.order-lg-1
-              h3 08:15 a. m. – Habitación pendiente de limpieza
-              p La habitación 305 presenta más de 30 minutos de retraso en limpieza. El área de #[em housekeeping] recibe la alerta para priorizar la atención y liberar la habitación lo antes posible.
-            .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-          .row(titulo="08:45 a. m. – <em>Check-in</em> realizado").align-items-center
-            .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-            .col-lg.order-2.order-lg-2.text-left
-              h3 08:45 a. m. – #[em Check-in] realizado
-              p El huésped de la reserva número 12540 realizó correctamente el proceso de #[em check-in]. La información queda actualizada en recepción y el sistema registra la habitación como ocupada.
-          .row(titulo="09:00 a. m. – <em>Check-in</em> próximo").align-items-center
-            .col-lg.order-2.order-lg-1
-              h3 09:00 a. m. – #[em Check-in] próximo
-              p El sistema informa la llegada programada de un huésped en los próximos 15 minutos para la reserva 12548 en la habitación 412. Recepción prepara el ingreso y verifica disponibilidad.
-            .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-          .row(titulo="10:20 a. m. – Pago pendiente").align-items-center
-            .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-            .col-lg.order-2.order-lg-2.text-left
-              h3 10:20 a. m. – Pago pendiente
-              p La reserva número 12490 presenta un pago pendiente de confirmación. El área de reservas debe validar la garantía y verificar el estado del cobro antes del ingreso del huésped.
-          .row(titulo="11:10 a. m. – Habitación en mantenimiento").align-items-center
-            .col-lg.order-2.order-lg-1
-              h3 11:10 a. m. – Habitación en mantenimiento
-              p La habitación 502 reporta daños en el sistema de aire acondicionado. El PMS registra la novedad y cambia temporalmente el estado de la habitación a mantenimiento.
-            .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-          .row(titulo="12:30 p. m. – Sobreocupación prevista").align-items-center
-            .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-            .col-lg.order-2.order-lg-2.text-left
-              h3 12:30 p. m. – Sobreocupación prevista
-              p El sistema proyecta una ocupación del 95 % para el día siguiente. La gerencia recibe una alerta preventiva para controlar disponibilidad y evitar sobreventas.
-          .row(titulo="01:05 p. m. – Habitación lista").align-items-center
-            .col-lg.order-2.order-lg-1
-              h3 01:05 p. m. – Habitación lista
-              p #[em Housekeeping] actualiza la habitación 305 como limpia y disponible para nuevas reservas o asignaciones de #[em check-in].
-            .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-          .row(titulo="03:15 p. m. – Mantenimiento programado").align-items-center
-            .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
-            .col-lg.order-2.order-lg-2.text-left
-              h3 03:15 p. m. – Mantenimiento programado
-              p La habitación 208 se encuentra temporalmente fuera de servicio por mantenimiento programado. El sistema restringe su venta hasta finalizar la intervención técnica.
-          .row(titulo="04:10 p. m. – <em>No show</em>").align-items-center
-            .col-lg.order-2.order-lg-1
-              h3 04:10 p. m. – #[em No show]
-              p El huésped de la reserva número 12470 no se presentó al #[em check-in] ni realizó cancelación previa. El PMS registra automáticamente el caso como #[em no show] y actualiza la disponibilidad.
-            .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
-              figure
-                img(src='@/assets/curso/tema3/img22.svg', alt="")
+
+          PasosA.color-primario(tipo="l")
+            .row(titulo="08:15 a. m. – Limpieza pendiente").align-items-center
+              .col-lg.order-2.order-lg-1
+                h3 08:15 a. m. – Limpieza pendiente
+                p La habitación 305 presenta un retraso de más de 30 minutos en su limpieza.
+                p #[b Responsable:] <em>HOUSEKEEPING</em>
+              .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+
+            .row(titulo="08:45 a. m. – Registro de ingreso realizado").align-items-center
+              .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+              .col-lg.order-2.order-lg-2.text-left
+                h3 08:45 a. m. – Registro de ingreso realizado
+                p Se completó el registro de ingreso del huésped de la reserva n.º 12540.
+                p #[b Responsable:] RECEPCIÓN
+
+            .row(titulo="09:00 a. m. – Llegada próxima").align-items-center
+              .col-lg.order-2.order-lg-1
+                h3 09:00 a. m. – Llegada próxima
+                p Se prevé la llegada de un huésped en 15 minutos. Reserva n.º 12548, habitación 412.
+                p #[b Responsable:] RECEPCIÓN
+              .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+
+            .row(titulo="10:20 a. m. – Pago pendiente").align-items-center
+              .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+              .col-lg.order-2.order-lg-2.text-left
+                h3 10:20 a. m. – Pago pendiente
+                p La reserva n.º 12490 registra un pago pendiente. Verificar las condiciones de pago y garantía.
+                p #[b Responsable:] RESERVAS
+
+            .row(titulo="11:10 a. m. – Habitación en mantenimiento").align-items-center
+              .col-lg.order-2.order-lg-1
+                h3 11:10 a. m. – Habitación en mantenimiento
+                p Se reporta una falla en el aire acondicionado de la habitación 502.
+                p #[b Responsable:] MANTENIMIENTO
+              .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+
+            .row(titulo="12:30 p. m. – Alta ocupación prevista").align-items-center
+              .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+              .col-lg.order-2.order-lg-2.text-left
+                h3 12:30 p. m. – Alta ocupación prevista
+                p Se proyecta una ocupación del 95 % para mañana. Verificar disponibilidad.
+                p #[b Responsable:] GERENCIA
+
+            .row(titulo="01:05 p. m. – Habitación lista").align-items-center
+              .col-lg.order-2.order-lg-1
+                h3 01:05 p. m. – Habitación lista
+                p Finalizó la limpieza de la habitación 305. Se encuentra disponible para asignación.
+                p #[b Responsable:] HOUSEKEEPING
+              .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+
+            .row(titulo="03:15 p. m. – Mantenimiento programado").align-items-center
+              .col-auto.order-1.order-lg-1.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+              .col-lg.order-2.order-lg-2.text-left
+                h3 03:15 p. m. – Mantenimiento programado
+                p La habitación 208 estará fuera de servicio por mantenimiento.
+                p #[b Responsable:] MANTENIMIENTO
+
+            .row(titulo="04:10 p. m. – No presentación (no-show)").align-items-center
+              .col-lg.order-2.order-lg-1
+                h3 04:10 p. m. – No presentación (#[em no-show])
+                p El huésped de la reserva n.º 12470 no se presentó dentro del plazo establecido.
+                p #[b Responsable:] RESERVAS
+              .col-auto.order-1.order-lg-2.d-lg-block.d-md-block.d-none.mb-4.mb-lg-0.mx-auto
+                figure
+                  img(src='@/assets/curso/tema3/img22.svg', alt="")
+
 
 
     .row.mb-5.justify-content-center.align-items-center
